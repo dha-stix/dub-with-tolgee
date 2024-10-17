@@ -1,0 +1,2 @@
+"use client"
+import{jsx as r,jsxs as e}from"react/jsx-runtime";function n(o){return r("svg",{height:"18",width:"18",viewBox:"0 0 18 18",xmlns:"http://www.w3.org/2000/svg",...o,children:e("g",{fill:"currentColor",children:[r("circle",{cx:"7",cy:"7",fill:"none",r:"5.25",stroke:"currentColor",strokeLinecap:"round",strokeLinejoin:"round",strokeWidth:"1.5"}),r("circle",{cx:"11",cy:"11",fill:"none",r:"5.25",stroke:"currentColor",strokeLinecap:"round",strokeLinejoin:"round",strokeWidth:"1.5"})]})})}export{n as a};

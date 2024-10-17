@@ -1,0 +1,2 @@
+"use client"
+import{q as e}from"./chunk-OQCPKGEH.mjs";import{useState as n}from"react";import{toast as u}from"sonner";import{jsx as p}from"react/jsx-runtime";function g({value:o,children:s,className:r,successMessage:a}){let[c,t]=n(!1);return p("button",{onClick:i=>{i.stopPropagation(),t(!0),navigator.clipboard.writeText(o).then(()=>{u.success(a||"Copied to clipboard!")}),setTimeout(()=>t(!1),3e3)},type:"button",className:e("cursor-copy text-sm text-gray-700 decoration-dotted hover:underline",c&&"cursor-default",r),children:s})}export{g as a};
