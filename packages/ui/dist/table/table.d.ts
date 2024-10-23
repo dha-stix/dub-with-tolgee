@@ -22,6 +22,7 @@ type UseTableProps<T> = {
     columnPinning?: ColumnPinningState;
     resourceName?: (plural: boolean) => string;
     className?: string;
+    scrollWrapperClassName?: string;
     thClassName?: string;
     tdClassName?: string;
 } & ({
@@ -39,6 +40,6 @@ type TableProps<T> = UseTableProps<T> & PropsWithChildren<{
 declare function useTable<T extends any>(props: UseTableProps<T>): TableProps<T> & {
     table: Table$1<T>;
 };
-declare function Table<T>({ columns, data, loading, error, emptyState, cellRight, sortBy, sortOrder, onSortChange, sortableColumns, className, thClassName, tdClassName, table, pagination, resourceName, rowCount, children, }: TableProps<T>): react_jsx_runtime.JSX.Element;
+declare function Table<T>({ columns, data, loading, error, emptyState, cellRight, sortBy, sortOrder, onSortChange, sortableColumns, className, scrollWrapperClassName, thClassName, tdClassName, table, pagination, resourceName, rowCount, children, }: TableProps<T>): react_jsx_runtime.JSX.Element;
 
 export { Table, useTable };

@@ -1,2 +1,2 @@
 "use client"
-import{a}from"./chunk-RDQECSXY.mjs";import"./chunk-6IZLSA2Z.mjs";import"./chunk-AUBFB4SI.mjs";export{a as TabSelect};
+import{a}from"./chunk-Q2SI3VUY.mjs";import"./chunk-5PZS4TTS.mjs";import"./chunk-AUBFB4SI.mjs";export{a as TabSelect};

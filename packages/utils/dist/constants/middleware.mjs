@@ -1,1 +1,1 @@
-import{a,b,c}from"../chunk-CH6QMF5Q.mjs";export{a as DEFAULT_REDIRECTS,c as DUB_HEADERS,b as RESERVED_PATHS};
+import{a,b}from"../chunk-YRRD6FUW.mjs";export{a as DEFAULT_REDIRECTS,b as DUB_HEADERS};

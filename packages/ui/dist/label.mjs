@@ -1,2 +1,2 @@
 "use client"
-import{a}from"./chunk-4HRAGO7E.mjs";import"./chunk-6IZLSA2Z.mjs";import"./chunk-AUBFB4SI.mjs";export{a as Label};
+import{a}from"./chunk-XO4RSIER.mjs";import"./chunk-5PZS4TTS.mjs";import"./chunk-AUBFB4SI.mjs";export{a as Label};

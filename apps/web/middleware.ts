@@ -16,11 +16,6 @@ import {
 } from "@dub/utils";
 import { NextFetchEvent, NextRequest, NextResponse } from "next/server";
 
-
-
-
-
-
 export const config = {
   matcher: [
     /*
@@ -40,13 +35,10 @@ export default async function middleware(req: NextRequest, ev: NextFetchEvent) {
 
   AxiomMiddleware(req, ev);
 
-
-
   // for App
   if (APP_HOSTNAMES.has(domain)) {
     return AppMiddleware(req);
   }
-
 
   // for API
   if (API_HOSTNAMES.has(domain)) {

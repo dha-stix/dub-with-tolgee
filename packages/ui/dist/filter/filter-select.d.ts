@@ -1,6 +1,6 @@
 import * as react_jsx_runtime from 'react/jsx-runtime';
 import { ReactNode } from 'react';
-import { F as Filter, a as FilterOption } from '../types-327fc8e7.js';
+import { F as Filter, a as FilterOption } from '../types-50b289da.js';
 import 'lucide-react';
 
 type FilterSelectProps = {
@@ -8,6 +8,8 @@ type FilterSelectProps = {
     onSelect: (key: string, value: FilterOption["value"]) => void;
     onRemove: (key: string, value: FilterOption["value"]) => void;
     onOpenFilter?: (key: string) => void;
+    onSearchChange?: (search: string) => void;
+    onSelectedFilterChange?: (key: string | null) => void;
     activeFilters?: {
         key: Filter["key"];
         value: FilterOption["value"];
@@ -17,6 +19,6 @@ type FilterSelectProps = {
     emptyState?: ReactNode | Record<string, ReactNode>;
     className?: string;
 };
-declare function FilterSelect({ filters, onSelect, onRemove, onOpenFilter, activeFilters, askAI, children, emptyState, className, }: FilterSelectProps): react_jsx_runtime.JSX.Element;
+declare function FilterSelect({ filters, onSelect, onRemove, onOpenFilter, onSearchChange, onSelectedFilterChange, activeFilters, askAI, children, emptyState, className, }: FilterSelectProps): react_jsx_runtime.JSX.Element;
 
 export { FilterSelect };

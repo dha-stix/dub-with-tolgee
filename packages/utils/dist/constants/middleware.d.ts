@@ -12,9 +12,8 @@ declare const DEFAULT_REDIRECTS: {
     welcome: string;
     discord: string;
 };
-declare const RESERVED_PATHS: string[];
 declare const DUB_HEADERS: {
     "x-powered-by": string;
 };
 
-export { DEFAULT_REDIRECTS, DUB_HEADERS, RESERVED_PATHS };
+export { DEFAULT_REDIRECTS, DUB_HEADERS };

@@ -1,2 +1,2 @@
 "use client"
-import{a}from"../../chunk-5L2MLHUY.mjs";import"../../chunk-6IZLSA2Z.mjs";import"../../chunk-AUBFB4SI.mjs";export{a as Spotify};
+import{a}from"../../chunk-O3KWGEBR.mjs";import"../../chunk-5PZS4TTS.mjs";import"../../chunk-AUBFB4SI.mjs";export{a as Spotify};

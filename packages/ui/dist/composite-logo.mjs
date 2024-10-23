@@ -1,2 +1,2 @@
 "use client"
-import{a}from"./chunk-GSCHWKLV.mjs";import"./chunk-6IZLSA2Z.mjs";import"./chunk-AUBFB4SI.mjs";export{a as CompositeLogo};
+import{a}from"./chunk-GIFUXXND.mjs";import"./chunk-5PZS4TTS.mjs";import"./chunk-AUBFB4SI.mjs";export{a as CompositeLogo};
